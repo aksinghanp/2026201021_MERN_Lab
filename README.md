@@ -73,12 +73,5 @@ curl -X POST http://localhost:5000/api/notes \
 
 ## Screenshot checklist
 
-After adding at least two notes, save the browser view as `screenshots/ui-preview.png`. Then open the browser DevTools Network tab, delete a note, select the successful `DELETE` request showing status `200 OK`, and save that view as `screenshots/delete-action.png`.
+For the verification part,I have added delete-action.png, ui-preview.png and insert-actio-json.png in screenshots section of this folder
 
-## Submission
-
-Stop both development servers and remove any generated `node_modules` or `dist` directories before creating the archive if your zip tool does not exclude them automatically. Name the final archive:
-
-```text
-2026201021_MERN_Lab.zip
-```
